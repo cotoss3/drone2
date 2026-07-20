@@ -8,6 +8,7 @@ import './Navigation.css'
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -101,7 +102,23 @@ export default function Navigation() {
       
       {mobileMenuOpen && (
         <div className="mobile-menu">
-          <Link href="/servicios" onClick={() => setMobileMenuOpen(false)}>Servicios</Link>
+          <div className="mobile-dropdown-wrapper">
+            <button 
+              className="mobile-dropdown-btn" 
+              onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+            >
+              Servicios <span style={{ transition: 'transform 0.3s', transform: mobileServicesOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}>▼</span>
+            </button>
+            <div className={`mobile-dropdown-content ${mobileServicesOpen ? 'open' : ''}`}>
+              <Link href="/servicios" onClick={() => setMobileMenuOpen(false)}>Todos los Servicios</Link>
+              <Link href="/servicios/bienes-raices" onClick={() => setMobileMenuOpen(false)}>Bienes Raíces</Link>
+              <Link href="/servicios/eventos" onClick={() => setMobileMenuOpen(false)}>Eventos</Link>
+              <Link href="/servicios/produccion-publicitaria" onClick={() => setMobileMenuOpen(false)}>Publicidad</Link>
+              <Link href="/servicios/monitoreo-obras" onClick={() => setMobileMenuOpen(false)}>Monitoreo de Obras</Link>
+              <Link href="/servicios/inspeccion" onClick={() => setMobileMenuOpen(false)}>Inspección</Link>
+              <Link href="/servicios/mapeo-agricultura" onClick={() => setMobileMenuOpen(false)}>Mapeo y Agricultura</Link>
+            </div>
+          </div>
           <Link href="/portafolio" onClick={() => setMobileMenuOpen(false)}>Portafolio</Link>
           <Link href="/sobre-nosotros" onClick={() => setMobileMenuOpen(false)}>Nosotros</Link>
           <Link href="/precios" onClick={() => setMobileMenuOpen(false)}>Precios</Link>
