@@ -2,8 +2,8 @@
   --corporate-bg: #0a0a0c;
   --corporate-surface: #141417;
   --corporate-border: rgba(255,255,255,0.08);
-  --corporate-accent: #3498db;
-  --corporate-accent-hover: #2980b9;
+  --corporate-accent: #c9a961;
+  --corporate-accent-hover: #e8cd8a;
   --corporate-text: #e2e8f0;
   --corporate-muted: #94a3b8;
 }
@@ -60,7 +60,7 @@
 .hero-badge {
   display: inline-block;
   padding: 6px 16px;
-  background: rgba(52, 152, 219, 0.15);
+  background: rgba(201, 169, 97, 0.15);
   border: 1px solid var(--corporate-accent);
   color: var(--corporate-accent);
   text-transform: uppercase;
@@ -108,7 +108,7 @@
 .btn-primary.solid-btn:hover {
   background: var(--corporate-accent-hover);
   border-color: var(--corporate-accent-hover);
-  box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 10px 20px rgba(201, 169, 97, 0.3);
 }
 
 .btn-secondary.outline-btn {
@@ -227,7 +227,7 @@
 }
 
 .tech-service-card:hover {
-  border-color: rgba(52, 152, 219, 0.5);
+  border-color: rgba(201, 169, 97, 0.5);
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
@@ -235,7 +235,7 @@
   flex-shrink: 0;
   width: 60px;
   height: 60px;
-  background: rgba(52, 152, 219, 0.1);
+  background: rgba(201, 169, 97, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;
