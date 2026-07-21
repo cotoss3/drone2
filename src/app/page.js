@@ -113,7 +113,7 @@ export default function Home() {
           <div className="trust-layout">
             <motion.div className="trust-text" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <span className="section-subtitle">COMPROMISO Y CALIDAD</span>
-              <h2>Por qué Aerovisual es tu socio estratégico</h2>
+              <h2>Por qué Aero Panamá es tu socio estratégico</h2>
               <p>No somos solo pilotos; somos especialistas técnicos que entienden las necesidades de tu industria. Operamos bajo los más estrictos estándares de seguridad y eficiencia.</p>
               
               <ul className="trust-list">

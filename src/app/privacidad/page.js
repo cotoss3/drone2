@@ -1,7 +1,7 @@
 import '../terminos/terminos.css'
 
 export const metadata = {
-  title: 'Política de Privacidad | AEROVISUAL',
+  title: 'Política de Privacidad | AERO PANAMÁ',
   description: 'Política de privacidad sobre cómo recopilamos, usamos y protegemos tus datos.',
 }
 
@@ -22,7 +22,7 @@ export default function PoliticaPrivacidad() {
           <section>
             <h2>1. Introducción</h2>
             <p>
-              En AEROVISUAL (en adelante, "la Empresa"), respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. 
+              En AERO PANAMÁ (en adelante, "la Empresa"), respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. 
               Esta Política de Privacidad explica cómo recopilamos, utilizamos, almacenamos y compartimos la información obtenida a través de nuestro sitio web y durante la prestación de nuestros servicios audiovisuales aéreos.
             </p>
           </section>

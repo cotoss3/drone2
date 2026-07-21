@@ -23,7 +23,7 @@ En nuestra experiencia, los listados con contenido aéreo generan más consultas
 
 Como cliente, esto se traduce en preguntas simples pero importantes antes de contratar: ¿el piloto tiene certificación vigente?, ¿la empresa cuenta con seguro de responsabilidad civil ante daños a terceros?, ¿gestionan el permiso de vuelo para la ubicación específica de tu proyecto?
 
-En Datakorex / AEROVISUAL operamos bajo cumplimiento estricto de la normativa vigente, con pólizas de responsabilidad civil activas y gestión de permisos para cada locación. Esto no solo evita sanciones, también protege al cliente: un vuelo no autorizado puede significar la pérdida del material grabado si la autoridad interviene la operación.`
+En Datakorex / AERO PANAMÁ operamos bajo cumplimiento estricto de la normativa vigente, con pólizas de responsabilidad civil activas y gestión de permisos para cada locación. Esto no solo evita sanciones, también protege al cliente: un vuelo no autorizado puede significar la pérdida del material grabado si la autoridad interviene la operación.`
   },
   {
     date: 'Julio 2026',

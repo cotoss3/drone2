@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-content">
         <div className="footer-brand">
-          <Link href="/" className="logo">AEROVISUAL</Link>
+          <Link href="/" className="logo">AERO PANAMÁ</Link>
           <p className="brand-description">
             Servicios audiovisuales aéreos profesionales con drones. Capturando perspectivas únicas para marcas que exigen la máxima calidad.
           </p>
@@ -56,7 +56,7 @@ export default function Footer() {
       </div>
       
       <div className="footer-bottom container">
-        <p>&copy; {new Date().getFullYear()} AEROVISUAL. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} AERO PANAMÁ. Todos los derechos reservados.</p>
         <div className="legal-links">
           <Link href="/privacidad">Política de Privacidad</Link>
           <Link href="/terminos">Términos de Servicio</Link>

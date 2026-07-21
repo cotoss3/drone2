@@ -3,7 +3,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'AEROVISUAL | Servicios Audiovisuales con Dron',
+  title: 'AERO PANAMÁ | Servicios Audiovisuales con Dron',
   description: 'Fotografía y video aéreo profesional para bienes raíces, eventos, construcción, agricultura e inspección de infraestructura.',
 }
 

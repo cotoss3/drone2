@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Servicios | AEROVISUAL',
+  title: 'Servicios | AERO PANAMÁ',
   description: 'Explora nuestros servicios de fotografía y video aéreo profesional.'
 }
 

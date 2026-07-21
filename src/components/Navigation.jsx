@@ -22,7 +22,7 @@ export default function Navigation() {
     <nav className={`navigation ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <Link href="/" className="logo">
-          AEROVISUAL
+          AERO PANAMÁ
         </Link>
         
         <div className="desktop-links">

@@ -1,7 +1,7 @@
 import './terminos.css'
 
 export const metadata = {
-  title: 'Términos de Servicio | AEROVISUAL',
+  title: 'Términos de Servicio | AERO PANAMÁ',
   description: 'Términos y condiciones de nuestros servicios de fotografía y video con drones.',
 }
 
@@ -22,7 +22,7 @@ export default function TerminosDeServicio() {
           <section>
             <h2>1. Aceptación de los Términos</h2>
             <p>
-              Al contratar los servicios de AEROVISUAL (en adelante, "la Empresa"), el cliente acepta íntegramente los siguientes Términos y Condiciones. 
+              Al contratar los servicios de AERO PANAMÁ (en adelante, "la Empresa"), el cliente acepta íntegramente los siguientes Términos y Condiciones. 
               Estas políticas están diseñadas para garantizar la seguridad de las operaciones, el cumplimiento de la normativa aeronáutica y la calidad del material entregado.
             </p>
           </section>

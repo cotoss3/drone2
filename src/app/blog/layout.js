@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Blog | AEROVISUAL',
+  title: 'Blog | AERO PANAMÁ',
   description: 'Artículos y casos de uso sobre fotografía aérea, video con dron, fotogrametría y regulación de vuelos comerciales en Panamá.'
 }
 

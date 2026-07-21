@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Contacto | AEROVISUAL',
+  title: 'Contacto | AERO PANAMÁ',
   description: 'Solicita un presupuesto para servicios audiovisuales con dron.'
 }
 
@@ -15,7 +15,7 @@ export default function Contact() {
           method="POST"
           style={{display: 'flex', flexDirection: 'column', gap: '1.5rem'}}
         >
-          <input type="hidden" name="_subject" value="Nueva solicitud de cotización - AEROVISUAL" />
+          <input type="hidden" name="_subject" value="Nueva solicitud de cotización - AERO PANAMÁ" />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_captcha" value="false" />
 
