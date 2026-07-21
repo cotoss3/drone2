@@ -59,7 +59,7 @@ export default function Footer() {
         <p>&copy; {new Date().getFullYear()} AEROVISUAL. Todos los derechos reservados.</p>
         <div className="legal-links">
           <Link href="#">Política de Privacidad</Link>
-          <Link href="#">Términos de Servicio</Link>
+          <Link href="/terminos">Términos de Servicio</Link>
         </div>
       </div>
     </footer>
