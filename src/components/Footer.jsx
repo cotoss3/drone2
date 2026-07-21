@@ -58,7 +58,7 @@ export default function Footer() {
       <div className="footer-bottom container">
         <p>&copy; {new Date().getFullYear()} AEROVISUAL. Todos los derechos reservados.</p>
         <div className="legal-links">
-          <Link href="#">Política de Privacidad</Link>
+          <Link href="/privacidad">Política de Privacidad</Link>
           <Link href="/terminos">Términos de Servicio</Link>
         </div>
       </div>
